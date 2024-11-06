@@ -1,46 +1,73 @@
-# Getting Started with Create React App
+# Expedia Enhancement Project: Stress-Free Travel Planning 🌍✈️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+Our project enhances Expedia's platform by addressing common travel pain points and making the planning process more intuitive. Born from real travel experiences, including a team member's visa complications in South Korea, we've developed features that make travel planning smoother and more reliable.
 
-## Available Scripts
+## Key Features 🎯
 
-In the project directory, you can run:
+### 1. Explore Tab 🔍
+- Personalized destination exploration based on:
+  - Budget constraints
+  - Available dates
+  - User preferences
+- Flexible search options for customized travel planning
 
-### `npm start`
+### 2. Passport Integration 📘
+- Real-time visa requirement checks
+- Integration with Sherpa's API
+- Automatic passport validity verification
+- Pre-booking document requirement alerts
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 3. AI-Powered Itinerary Planner 📅
+- Personalized trip planning using Gemini 1.5-Flash
+- Real-time data integration through custom API
+- Google Maps integration
+- Activity and destination recommendations
+- Budget-conscious suggestions
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technical Implementation 🛠️
 
-### `npm test`
+### Built With
+- Frontend:
+  - React
+  - TypeScript
+  - HTML/CSS
+  - Bootstrap
+- Backend:
+  - Flask
+  - Python
+  - Custom API
+- APIs:
+  - Gemini AI
+  - Google Maps
+  - Passport Index
+  - Custom Web Scraping API
+- Design:
+  - Figma
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Challenges Overcome 💪
+- Backend-Frontend integration complexities
+- Creating accurate Expedia mock-ups
+- API hosting solutions for budget constraints
+- First-time hackathon experience for team members
+- Learning new technologies (APIs, TypeScript, Google services)
 
-### `npm run build`
+## Future Roadmap 🚀
+- Code productionization
+- Enhanced Explore Tab features
+- Google Calendar integration
+- Social sharing capabilities
+- Authentication implementation
+- Google Flights-like functionality deployment
+- UI/UX alignment with Expedia's standards
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## What We Learned 📚
+- User experience prioritization
+- API integration and management
+- Real-time data handling
+- Collaborative development
+- Rapid learning and adaptation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## BostonHacks 2024 🏫
+This project was developed during BostonHacks 2024, representing a significant achievement for our team, with three first-time hackathon participants.
